@@ -29,6 +29,6 @@ print(f"the new string craeted by concatinating the first letter of the each eor
 word = "radar"
 print(f"\"{word}\" is palindrome: {word == word[::-1]}")
 
-# 5. find the occurrences of 'i', 's', 'p' and 'm' 
+# 5. find the occurrences of 'i', 's', 'p' and 'm'  
 text = "mississippi"
 print(f"\"i\" occures {text.count("i")}\n\"s\" occures {text.count("s")}\n\"p\" occures {text.count("p")}\n\"m\" occures {text.count("m")}")
