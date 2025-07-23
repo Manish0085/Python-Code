@@ -31,3 +31,4 @@ print(sorted(names, key=str.lower))
 fruits = ["apple", "banana", "apple", "orange", "banana", "apple"]
 print(f"\"apple\" count in the list {fruits}: {fruits.count('apple')}")
 print(f"\"kiwi\" count in the list {fruits}: {fruits.count('kiwi')}")
+print(f"\"apple\" index in the list {fruits} after index 1: {fruits.index('apple', 1)}")
