@@ -55,4 +55,6 @@ print(f"(tuple_a < tuple_c): {tuple_a < tuple_c}")
 # Methods --> count, index
 numbers = (1, 5, 8, 2, 1, 4, 2, 3, 2)
 print(f"numbers.count(2): {numbers.count(2)}")
-print(f"numbers.index(2): {numbers.index(2)}")
+print(f"numbers.index(2): {numbers.index(2)}")  # returns first occurrenec index of 2
+
+# No tuple comprehension exists unlike list comprehension and dict comprehension because they are mutuable DS but tuple is immutable Ds

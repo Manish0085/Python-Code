@@ -1,0 +1,39 @@
+
+
+|   Syntxa       |       Description                         |
+|----------------|-------------------------------------------|
+|                |                                           |
+|   (1, 2, 3)    |  Tuple litearl with three elements        | 
+|                |                                           |
+|   1, 2, 3      |  Implicit tuple (no parenthesis needed)   |
+|                |                                           |
+|   (42, )       |  Single-element tuple (note the comma)    |
+|                |                                           |
+|  tuple([1, 2]) |  Creating a tuple from a list             |
+|                |                                           |
+|  tuple("hi")   |  Tuple from a string -> '('h', 'i')'      |
+|                |                                           |
+
+
+--> Tuples are always created using commas, not parenthesis
+--> Parentheses improve readability but are not required
+--> Trailing commas in multi-element tuples are optional
+
+
+|   Expression   |       Result                              |
+|----------------|-------------------------------------------|
+|                |                                           |
+|      1,        |       Tuple with one elements             | 
+|                |                                           |
+|    (1, )       |       Tuple with one elements             |
+|                |                                           |
+|      ()        |      Empty tuple (special case)           |
+|                |                                           |
+|      (1)       |     Just an integer, not tuple            |
+|                |                                           |
+|    tuple()     |       Also creates empty tuple            |
+|                |                                           |
+
+Tuples are also hetrogeneous which means that it can store elements of diff types
+
+
